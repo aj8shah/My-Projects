@@ -1,0 +1,15 @@
+Script started on Mon 04 Mar 2019 08:27:59 PM CST
+aj@q4os-desktop:~/Desktop$ g++ -o filecnt filecnt.cpp
+aj@q4os-desktop:~/Desktop$ sudo cp filecnt /usr/bo[Kin
+aj@q4os-desktop:~/Desktop$ g++ -o filedisp files[Kdisp.cpp
+aj@q4os-desktop:~/Desktop$ sudo cp filedisp /s[Kusr/bin
+aj@q4os-desktop:~/Desktop$ filecnt /usr/share | filedisp -d
+The total number of directories in directory </usr/share> is: 5644
+aj@q4os-desktop:~/Desktop$ filecnt /usr/share | filedisp -d[Kf
+The total number of files in directory </usr/share> is: 88890
+aj@q4os-desktop:~/Desktop$ filecnt /usr/share | filedisp -f[Kb
+The total number of bytes occupied by all files in directory </usr/share> is: 1423812600
+aj@q4os-desktop:~/Desktop$ exit
+exit
+
+Script done on Mon 04 Mar 2019 08:29:28 PM CST
