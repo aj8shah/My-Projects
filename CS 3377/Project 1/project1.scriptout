@@ -1,0 +1,58 @@
+Script started on Thu 31 Jan 2019 05:27:16 PM CST
+aj@q4os-desktop:~/Desktop$ exit[1Pvimsudo apt-get clean[11P./a.outg++ CLIparseAndTokenizer.cpp./a.out[Kg++ CLIparseAndTokenizer.cpp
+aj@q4os-desktop:~/Desktop$ g++ CLIparseAndTokenizer.cppexit[K[1Pvimsudo apt-get clean[11P./a.out
+Enter a Command Line or Enter "QUIT" to Exit: 
+ls -la ./myhome
+Command: ls
+Option: -la 
+Argument: ./myhome
+-----------------------
+Number of Tokens: 3
+
+Enter a Command Line or Enter "QUIT" to Exit: 
+wc myfile.txt > count
+Command: wc
+Argument: myfile.txt 
+Special Character: >
+Argument: count
+-----------------------
+Number of Tokens: 4
+
+Enter a Command Line or Enter "QUIT" to Exit: 
+ls -ltR | grep cs3377 > output.txt
+Command: ls
+Option: -ltR 
+Special Character: |
+Command: grep 
+Argument: cs337
+Special Character: >
+Argument: > 
+Special Character: >
+Argument: output.txt
+Argument: .txt
+-----------------------
+Number of Tokens: 7
+
+Enter a Command Line or Enter "QUIT" to Exit: 
+grep foobar < myfile.txt | wc -l > NumberOfLines # count lines that has 'foobar; ' inm  myfile.txt
+Command: grep
+Argument: foobar 
+Special Character: <
+Argument: myfile.txt 
+Argument: .txt | wc -
+Special Character: |
+Command: wc 
+Option: wc 
+Option: -l 
+Special Character: >
+Argument: NumberOfLines 
+Special Character: #
+-----------------------
+Number of Tokens: 11
+
+Enter a Command Line or Enter "QUIT" to Exit: 
+QUIT
+aj@q4os-desktop:~/Desktop$ s[Kexit
+exit
+
+Script done on Thu 31 Jan 2019 05:29:54 PM CST
