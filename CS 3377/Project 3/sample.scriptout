@@ -1,0 +1,30 @@
+Script started on Sun 24 Mar 2019 08:12:00 PM CDT
+aj@q4os-desktop:~/Desktop$ gpp[K[Kcc myshell.c
+aj@q4os-desktop:~/Desktop$ ./a.out
+myshell> ls | grep "^d" | wc -l
+0
+myshell> ls -l; clear; 
+[3J[H[Jmyshell> ls -l
+total 208
+-rwxr-xr-x 1 aj aj 18260 Mar 24 20:12 a.out
+-rw-r--r-- 1 aj aj  6925 Mar 23 19:36 functions.cpp
+-rw-r--r-- 1 aj aj  6925 Mar 23 19:29 functions.cpp~
+-rw-r--r-- 1 aj aj  1111 Mar 23 19:36 general.h
+-rw-r--r-- 1 aj aj  1111 Mar 23 19:23 general.h~
+-rwxr-xr-x 1 aj aj 14540 Mar 23 19:36 hello
+-rwxr-xr-x 1 aj aj 80156 Jan  7  2017 kdevelop
+-rwxrwxrwx 1 aj aj  1258 Mar 23 19:36 main.cpp
+-rwxrwxrwx 1 aj aj  1261 Mar 23 19:23 main.cpp~
+-rw-r--r-- 1 aj aj 14210 Mar 24 20:10 myshell.c
+-rw-r--r-- 1 aj aj 14207 Mar 24 19:26 myshell.c~
+-rw-r--r-- 1 aj aj     0 Mar 24 20:12 sample.scriptout
+-rwxrwxrwx 1 aj aj  1513 Mar 11 23:32 script.sh
+-rwxrwxrwx 1 aj aj  1513 Mar 11 23:32 script.sh~
+-rw-r--r-- 1 aj aj    17 Mar 23 20:03 test.c
+-rwxrwxrwx 1 aj aj 14290 Mar 14 19:23 testShell.c~
+myshell> exit
+Exiting!
+aj@q4os-desktop:~/Desktop$ exit
+exit
+
+Script done on Sun 24 Mar 2019 08:13:04 PM CDT
